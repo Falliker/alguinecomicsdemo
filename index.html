@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -16,40 +19,29 @@
     <nav class="navbar">
         <ul>
             <li><a href="paginas.html">CAPITULOS</a></li>
-            <li><a href="index.html">GMT</a></li>
+            <li><a href="gmt.html">GMT</a></li>
             <li><a href="galeria.html">ARCHIVO</a></li>
         </ul>
     </nav>
 
     <section id="blog_post">
-    <div class="continer">
-        <div class="blog-header">
-            <h1>GALERÍA, MUSEO Y TODO LO DEMÁS</h1>
+        <div class="continer">
+            <div class="blog-header">
+                <h1>EL PAÍS DEL COLAPSO - CAPÍTULOS</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="Imagenes/TN.png">
+            <div class="card-content">
+                <h3>PROLOGO - I</h3>
+                <P>Llegó un pedido...</P>
+                <a href="lector.html?capitulo=1" class="btn">LEER</a>
+            </div>
         </div>
     </div>
-</section>
-
-<div class="gallery gmt-gallery" id="gallery">
-
-    <div class="gallery-item">
-        <img src="Imagenes/Galleria/FonTom1.png"
-             alt="Wallpaper del protagonista"
-             data-title="Wallpaper del protagonista">
-    </div>
-</div>
-
-<div class="modal gmt-modal" id="modal">
-
-    <span class="close">&times;</span>
-
-    <img class="modal-content" id="modal-img">
-
-    <div id="caption"></div>
-
-</div>
-
-<script src="js/gmt.js"></script>
-
 
 </body>
 </html>
