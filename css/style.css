@@ -209,3 +209,36 @@ main{
 .modal-content:active{
     cursor: grabbing;
 }
+
+
+/* GMT GALLERY */
+
+.gmt-gallery .gallery-item {
+    flex: 0 1 250px;
+    max-width: 250px;
+}
+
+
+/* GMT LIGHTBOX */
+
+.gmt-modal .modal-content {
+    display: block;
+    margin: auto;
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+}
+
+/* GMT ZOOM + DRAG */
+
+.gmt-modal .modal-content {
+    transform-origin: center center;
+    touch-action: none;
+    cursor: grab;
+    user-select: none;
+}
+
+.gmt-modal .modal-content:active {
+    cursor: grabbing;
+}
